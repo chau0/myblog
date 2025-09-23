@@ -2,7 +2,6 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { cn } from '@/lib/utils';
 
 export default function Header() {
   const pathname = usePathname();
@@ -14,30 +13,21 @@ export default function Header() {
   ];
 
   return (
-    <header className="border-b border-gray-800 pb-8 mb-12">
-      <Link 
-        href="/" 
-        className="text-green-400 font-mono text-2xl font-semibold hover:text-green-300 transition-colors"
-      >
-        &gt; dev.blog
+    <header>
+      <Link href="/" className="logo">
+        dev.blog
       </Link>
       
-      <nav className="mt-4">
-        <ul className="flex space-x-8">
-          {navItems.map(({ href, label }) => (
-            <li key={href}>
-              <Link
-                href={href}
-                className={cn(
-                  "text-gray-400 font-mono text-sm hover:text-green-400 transition-colors",
-                  pathname === href && "text-green-400"
-                )}
-              >
-                {label}
-              </Link>
-            </li>
-          ))}
-        </ul>
+      <nav>
+        {navItems.map(({ href, label }) => (
+          <Link
+            key={href}
+            href={href}
+            className={pathname === href ? 'active' : ''}
+          >
+            {label}
+          </Link>
+        ))}
       </nav>
     </header>
   );
