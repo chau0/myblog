@@ -2,7 +2,7 @@
 title: "Welcome to My Dev Blog"
 date: "2025-09-26"
 excerpt: "This is the first post on my minimalist development blog. Here's what you can expect to find here."
-tags: ["blog", "development", "introduction"]
+tags: ["blog", "introduction"]
 ---
 
 # Welcome to My Dev Blog

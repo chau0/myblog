@@ -14,21 +14,8 @@ const projects: Project[] = [
     status: 'Active',
     github: 'https://github.com/yourusername/blog',
     demo: 'https://yourdomain.com'
-  },
-  {
-    name: 'Dev Tools Collection',
-    description: 'CLI tools and scripts I use for daily development. Includes file processors, git helpers, and deployment scripts.',
-    tech: ['Node.js', 'Bash', 'TypeScript'],
-    status: 'Ongoing',
-    github: 'https://github.com/yourusername/dev-tools'
-  },
-  {
-    name: 'Self-Hosting Stack',
-    description: 'Docker compose configurations and scripts for self-hosting various services. Includes monitoring and backup solutions.',
-    tech: ['Docker', 'Linux', 'Nginx'],
-    status: 'Active',
-    github: 'https://github.com/yourusername/selfhost-stack'
   }
+
 ];
 
 export default function ProjectsPage() {
