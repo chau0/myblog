@@ -1,22 +1,22 @@
 ---
 title: "Welcome to My Dev Blog"
-date: "2024-01-15"
+date: "2025-09-26"
 excerpt: "This is the first post on my minimalist development blog. Here's what you can expect to find here."
 tags: ["blog", "development", "introduction"]
 ---
 
 # Welcome to My Dev Blog
 
-This is my first post on this minimalist development blog. I built this platform to share thoughts on programming, self-hosting, and building clean, effective solutions.
+This is my first post on this minimalist development blog. I will write about my thoughts, interesting things in life, and whatever I think is worth sharing.
 
 ## What You'll Find Here
 
 I plan to write about:
-
-- **Clean Code**: Best practices for writing maintainable software
-- **Self-Hosting**: Running your own services and infrastructure
-- **Development Tools**: Tools and workflows that improve productivity
-- **Performance**: Optimizing applications and systems
+- My personal projects and experiments
+- Coding tips and tricks
+- Reviews of tools and technologies I use
+- Insights into my daily life as a developer
+- Random musings and thoughts
 
 ## The Tech Stack
 
@@ -42,6 +42,6 @@ This blog reflects that philosophy - no unnecessary features, no tracking, just 
 
 ## What's Next
 
-Stay tuned for posts about development best practices, self-hosting adventures, and the tools that make our work better.
+I will be posting regularly about my projects, coding tips, and personal insights. Stay tuned!
 
 Thanks for reading!
